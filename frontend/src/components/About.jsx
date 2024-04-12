@@ -13,13 +13,9 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+            Here is a good paragraph for your "About Us" section:
+
+"At Royal-Taste&Tonic, we are passionate about food and dedicated to providing exceptional dining experiences. Our team of talented chefs and staff work together to create delicious dishes and ensure that every customer leaves satisfied. With a focus on quality, creativity, and customer service, we strive to make every meal memorable. Welcome to @Royal-Taste&Tonic, where great food and great service come together to create unforgettable moments."
             </p>
             <Link to={"/"}>
               Explore Menu{" "}
