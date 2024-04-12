@@ -22,6 +22,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
+          <a href="tel:410-602-5008"><span>call us at: 6388079640</span></a>
           <button className="menuBtn">OUR MENU</button>
         </div>
         <div className="hamburger" onClick={()=> setShow(!show)}>
