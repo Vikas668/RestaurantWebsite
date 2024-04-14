@@ -94,7 +94,7 @@ const Reservation = () => {
                   onChange={(e) => setPhone(e.target.value)}
                 />
               </div>
-              <button type="submit" onClick={handleReservation}>
+              <button type="submit" id="button" onClick={handleReservation}>
                 RESERVE NOW{" "}
                 <span>
                   <HiOutlineArrowNarrowRight />
