@@ -1,9 +1,4 @@
-// import app from "./app.js";
-// const PORT=4000;
-// app.listen(PORT, ()=>{
-//     console.log(`SERVER HAS STARTED AT PORT ${PORT}`);
-// })
-// import app from "./app.js";
+
 const PORT=4000;
 
 import express from "express";
@@ -14,7 +9,7 @@ import reservationRouter from "./routes/reservationRoute.js";
 import { dbConnection } from "./database/dbConnection.js";
 
 const app = express();
-// dotenv.config({ path: "./config.env" });
+
 
 app.use(
   cors({
