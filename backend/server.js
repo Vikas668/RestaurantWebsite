@@ -1,8 +1,7 @@
 
-const PORT=4000;
 
 import express from "express";
-import dotenv from "dotenv";
+
 import cors from "cors";
 import { errorMiddleware } from "./middlewares/error.js";
 import reservationRouter from "./routes/reservationRoute.js";
@@ -10,10 +9,11 @@ import { dbConnection } from "./database/dbConnection.js";
 
 const app = express();
 
+const PORT=4000;
 
 app.use(
   cors({
-    origin: "http://localhost:5173/",
+    origin: "http://localhost:5173",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true,

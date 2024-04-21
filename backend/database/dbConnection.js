@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGO_URI="mongodb+srv://vikasshuklaaf18:20Vikas!@cluster0.p1jo9re.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const MONGO_URI="mongodb+srv://vikasshuklaaf18:20Vikas!@cluster0.p1jo9re.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 export const dbConnection = () => {
   mongoose
