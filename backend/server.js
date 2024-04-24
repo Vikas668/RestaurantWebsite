@@ -58,7 +58,7 @@ const PORT = 4000;
 
 app.use(
   cors({
-    origin: "https://splendid-crumble-fe7329.netlify.app",
+    origin: "https://vikas12200441.netlify.app",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
